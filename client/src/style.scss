@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+input, button {
+  color: #000;
+  border-radius: 5px;
+}
+
+form {
+  border-radius: 5px;
+}
+
+button {
+  padding: 3px;
+  &:hover {
+    transform: translate(2px, 1px);
+    transition: .1s;
+  }
+  &:active, 
+  &:focus {
+      outline: none;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  padding: 0 5%;
+}

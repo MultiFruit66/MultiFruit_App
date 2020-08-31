@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  height: 80vh;
+
+  .title_panel {
+    margin: auto;
+    text-align: center;
+
+    h1 {
+      cursor: default;
+      user-select: none;
+    }
+
+    .logo {
+      height: 300px;
+      width: 600px;
+      background: url(../../img/header_logo.webp) no-repeat;
+      background-position: center center;
+      background-size: contain;
+
+      @media screen and (max-width: 600px) {
+        height: 100px;
+        width: 200px;
+      }
+    }
+  }
+}

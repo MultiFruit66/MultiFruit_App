@@ -1,0 +1,15 @@
+{
+  "name": "multifruit",
+  "version": "1.0.0",
+  "description": "pet project (mern + ts) deployed on heroku",
+  "main": "api/server.ts",
+  "scripts": {
+    "start": "node api/build/server.js",
+    "heroku-postbuild": "cd client && npm i && npm run build && cd ../api && npm i && tsc --build"
+  },
+  "author": "MultiFruit",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}

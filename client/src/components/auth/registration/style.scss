@@ -1,0 +1,21 @@
+.registration {
+  height: 80vh;
+  display: flex;
+
+  form {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+
+  button {
+    padding: 3px;
+  }
+}
